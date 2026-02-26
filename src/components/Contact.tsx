@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Send, Instagram, Github, Linkedin, Youtube, Heart,
 
 const contactInfo = [
   { icon: <Phone size={20} />, label: 'Phone / WhatsApp', value: '085369786328', color: 'from-sky-400 to-blue-500' },
-  { icon: <Mail size={20} />, label: 'Email', value: 'nabihanadia8@gmail.com', color: 'from-cyan-400 to-sky-500' },
+  { icon: <Mail size={20} />, label: 'Email', value: 'nadianabihadziqra8@gmail.com', color: 'from-cyan-400 to-sky-500' },
   { icon: <MapPin size={20} />, label: 'Location', value: 'Lampung, Indonesia', color: 'from-blue-400 to-indigo-500' },
   { icon: <GraduationCap size={20} />, label: 'Campus', value: 'State Polytechnic of Lampung', color: 'from-sky-400 to-cyan-500' },
 ];
@@ -240,7 +240,7 @@ export function Footer() {
               { Icon: Github, href: 'https://github.com/nadianabiha', label: 'GitHub' },
               { Icon: Linkedin, href: 'https://www.linkedin.com/in/nadia-nabiha-3069b7312/', label: 'LinkedIn' },
               { Icon: Youtube, href: 'https://www.youtube.com/@NadiaNabiha-k4e', label: 'YouTube' },
-              { Icon: Mail, href: 'mailto:nabihanadia8@gmail.com', label: 'Email' },
+              { Icon: Mail, href: 'mailto:nadianabihadziqra8@gmail.com', label: 'Email' },
             ].map(({ Icon, href, label }, i) => (
               <a
                 key={i}
