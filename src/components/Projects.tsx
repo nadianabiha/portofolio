@@ -70,8 +70,8 @@ const projects: Project[] = [
     type: 'Academic Project',
   },
   {
-    title: 'Website Portfolio Personal',
-    description: 'A responsive and modern personal portfolio website with smooth animations, built using React and Tailwind CSS.',
+    title: 'Website Portofolio Personal',
+    description: 'A responsive and modern personal portofolio website with smooth animations, built using React and Tailwind CSS.',
     tags: ['React', 'Tailwind CSS', 'Vite', 'TypeScript'],
     icon: '💼',
     gradient: 'from-cyan-400 to-sky-500',
@@ -222,7 +222,7 @@ function SmallProject({ project, onImageClick }: { project: Project; onImageClic
   const getIcon = () => {
     if (project.title.includes('Networking')) return <Network size={20} className="text-white" />;
     if (project.title.includes('Game')) return <Gamepad2 size={20} className="text-white" />;
-    if (project.title.includes('Portfolio')) return <Globe size={20} className="text-white" />;
+    if (project.title.includes('Portofolio')) return <Globe size={20} className="text-white" />;
     return null;
   };
 
@@ -409,6 +409,7 @@ export function Projects() {
     </section>
   );
 }
+
 
 
 

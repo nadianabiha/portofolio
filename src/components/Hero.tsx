@@ -36,7 +36,7 @@ export function Hero() {
           <div className="flex-1 text-center lg:text-left animate-fade-in-up">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-sky-100/80 backdrop-blur-sm rounded-full text-sky-600 text-sm font-medium mb-6 border border-sky-200/50">
               <Sparkles size={16} />
-              <span>Welcome to my portfolio</span>
+              <span>Welcome to my portofolio</span>
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-800 leading-tight mb-4">
@@ -46,7 +46,7 @@ export function Hero() {
             </h1>
             
             <p className="text-lg sm:text-xl text-sky-600 mb-2 font-semibold">
-              Personal Portfolio
+              Personal Portofolio
             </p>
             
             <p className="text-base text-slate-500 mb-1 font-medium">
@@ -136,5 +136,7 @@ export function Hero() {
     </section>
   );
 }
+
+
 
 

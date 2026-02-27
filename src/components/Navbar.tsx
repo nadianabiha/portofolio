@@ -47,7 +47,7 @@ export function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="text-lg font-bold bg-gradient-to-r from-sky-600 to-blue-600 bg-clip-text text-transparent leading-tight">Nadia Nabiha Dziqra</span>
-              <span className="text-[10px] text-slate-400 font-medium leading-tight">Portfolio</span>
+              <span className="text-[10px] text-slate-400 font-medium leading-tight">Portofolio</span>
             </div>
           </a>
 
@@ -102,6 +102,8 @@ export function Navbar() {
     </nav>
   );
 }
+
+
 
 
 

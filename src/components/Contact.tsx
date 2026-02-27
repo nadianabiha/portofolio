@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Instagram, Github, Linkedin, Youtube, Heart, GraduationCap } from 'lucide-react';
+import { Mail, MapPin, Send, Instagram, Github, Linkedin, Youtube, Heart, GraduationCap } from 'lucide-react';
 
 const contactInfo = [
-  { icon: <Phone size={20} />, label: 'Phone / WhatsApp', value: '085369786328', color: 'from-sky-400 to-blue-500' },
   { icon: <Mail size={20} />, label: 'Email', value: 'nadianabihadziqra8@gmail.com', color: 'from-cyan-400 to-sky-500' },
   { icon: <MapPin size={20} />, label: 'Location', value: 'Lampung, Indonesia', color: 'from-blue-400 to-indigo-500' },
   { icon: <GraduationCap size={20} />, label: 'Campus', value: 'State Polytechnic of Lampung', color: 'from-sky-400 to-cyan-500' },
@@ -90,23 +89,6 @@ export function Contact() {
               </div>
             </div>
 
-            {/* WhatsApp CTA */}
-            <a
-              href="https://wa.me/6285369786328"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block bg-gradient-to-r from-green-400 to-emerald-500 rounded-2xl p-5 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
-            >
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-white/20 rounded-2xl flex items-center justify-center text-2xl">
-                  💬
-                </div>
-                <div>
-                  <p className="font-bold text-lg">Chat via WhatsApp</p>
-                  <p className="text-green-100 text-sm">Click to chat with me directly</p>
-                </div>
-              </div>
-            </a>
           </div>
 
           {/* Contact Form */}
@@ -270,6 +252,7 @@ export function Footer() {
     </footer>
   );
 }
+
 
 
 

@@ -133,7 +133,7 @@ export function About() {
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full translate-y-6 -translate-x-6" />
               <div className="relative">
                 <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
-                  📋 Biodata Singkat
+                  📋 Bio Data
                 </h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex items-start gap-3">
@@ -151,10 +151,6 @@ export function About() {
                   <div className="flex items-start gap-3">
                     <span className="text-sky-200 font-medium min-w-[80px]">Program</span>
                     <span className="font-semibold">Internet Engineering Technology (Bachelor Degree)</span>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <span className="text-sky-200 font-medium min-w-[80px]">Phone</span>
-                    <span className="font-semibold">085369786328</span>
                   </div>
                 </div>
               </div>
